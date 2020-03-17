@@ -8,17 +8,21 @@
   只做一件事 - 
   
   </title>
- <meta name="description" content="">
- <link href="atom.xml" rel="alternate" title="" type="application/atom+xml">
+  
+  
+  <link href="atom.xml" rel="alternate" title="" type="application/atom+xml">
     <link rel="stylesheet" href="asset/css/foundation.min.css" />
     <link rel="stylesheet" href="asset/css/docs.css" />
-
     <script src="asset/js/vendor/modernizr.js"></script>
     <script src="asset/js/vendor/jquery.js"></script>
-    <script src="asset/highlightjs/highlight.pack.js"></script>
-    <link href="asset/highlightjs/styles/github.css" media="screen, projection" rel="stylesheet" type="text/css">
-    <script>hljs.initHighlightingOnLoad();</script>
-    
+ 
+<script type="text/javascript">
+  function before_search(){
+    var searchVal = 'site: ' + document.getElementById('search_input').value;
+    document.getElementById('search_q').value = searchVal;
+    return true;
+  }
+</script>
   </head>
   <body class="antialiased hide-extras">
     
@@ -28,11 +32,34 @@
 
 <nav class="top-bar docs-bar hide-for-small" data-topbar>
 
-<div id="header">
-    <h1><a href="index.html"></a></h1>
-</div>
+
+  <section class="top-bar-section">
+  <div class="row">
+      <div style="position: relative;width:100%;"><div style="position: absolute; width:100%;">
+        <ul id="main-menu" class="left">
+        
+        <li id=""><a target="_self" href="index.html">Home</a></li>
+        
+        <li id=""><a target="_self" href="archives.html">Archives</a></li>
+        
+        <li id=""><a target="_blank" href="about.html">About</a></li>
+        
+        </ul>
+
+        <ul class="right" id="search-wrap">
+          <li>
+<form target="_blank" onsubmit="return before_search();" action="https://google.com/search" method="get">
+    <input type="hidden" id="search_q" name="q" value="" />
+    <input tabindex="1" type="search" id="search_input"  placeholder="Search"/>
+</form>
+</li>
+          </ul>
+      </div></div>
+  </div>
+  </section>
 
 </nav>
+
         <nav class="tab-bar show-for-small">
   <a href="javascript:void(0)" class="left-off-canvas-toggle menu-icon">
     <span> &nbsp; </span>
@@ -41,170 +68,67 @@
 
 <aside class="left-off-canvas-menu">
       <ul class="off-canvas-list">
-      <li><a href="index.html">Home</a></li>
-      
-        <li class="divider"></li>
-        <li><label>软件应用盒</label></li>
+        
+        <li><a target="_self" href="index.html">Home</a></li>
+        
+        <li><a target="_self" href="archives.html">Archives</a></li>
+        
+        <li><a target="_blank" href="about.html">About</a></li>
+        
 
-          
-            <li><a title="懂你英语 + Anki" href="dongni-and-anki.html">懂你英语 + Anki</a></li>
-          
-            <li><a title="接触了Typora，才发现快捷键是这样用的" href="Typora.html">接触了Typora，才发现快捷键是这样用的</a></li>
-          
-            <li><a title="愉快的英语原著阅读（Kindle + Kindle Mate + Anki）" href="Kindle-mate-to-anki.html">愉快的英语原著阅读（Kindle + Kindle Mate + Anki）</a></li>
-          
-            <li><a title="测试MWbe上传图床" href="mweb-qiniu.html">测试MWbe上传图床</a></li>
-          
-            <li><a title="MWeb升级1.7版本之后" href="nweb-1.7.html">MWeb升级1.7版本之后</a></li>
-          
-            <li><a title="新主题–Array Camera" href="themes-array-camera.html">新主题–Array Camera</a></li>
-          
-            <li><a title="拯救大象–如何整合笔记" href="zhengjiu-evernote.html">拯救大象–如何整合笔记</a></li>
-          
-            <li><a title="Lightroom安装LR/Mogrify" href="anzhuang-lrmogrify-for-mac.html">Lightroom安装LR/Mogrify</a></li>
-          
-            <li><a title="Wordpress真的可以用Markdown发布哦" href="mweb-for-wordpress.html">Wordpress真的可以用Markdown发布哦</a></li>
-          
-            <li><a title="测试使用Blogo" href="blogo-for-wordpress.html">测试使用Blogo</a></li>
-          
-            <li><a title="Evernote-自制表格模板" href="evernote-template.html">Evernote-自制表格模板</a></li>
-          
-            <li><a title="进步的笔记式-Evernote" href="evernote-for-everthing.html">进步的笔记式-Evernote</a></li>
-          
+    <li><label>Categories</label></li>
 
-      
-        <li class="divider"></li>
-        <li><label>思考要专注</label></li>
+        
+            <li><a href="software.html">软件应用盒</a></li>
+        
+            <li><a href="evernote.html">思考要专注</a></li>
+        
+            <li><a href="Reading.html">读书这件事</a></li>
+        
+            <li><a href="whisper.html">随便来唠叨</a></li>
+         
 
-          
-            <li><a title="为博客而写" href="blog-is.html">为博客而写</a></li>
-          
-            <li><a title="只做一件事" href="yijianshi.html">只做一件事</a></li>
-          
-            <li><a title="拖延症与懒惰情怀" href="tuoyanzheng.html">拖延症与懒惰情怀</a></li>
-          
-            <li><a title="我的博客将来时" href="farbox-with-wordpress.html">我的博客将来时</a></li>
-          
-
-      
-        <li class="divider"></li>
-        <li><label>读书这件事</label></li>
-
-          
-            <li><a title="思考--读书这件小事" href="dushuzhejianshi.html">思考--读书这件小事</a></li>
-          
-            <li><a title="整理术有多高效" href="zhenglishu.html">整理术有多高效</a></li>
-          
-            <li><a title="影子，你好!" href="yingzi-nihao.html">影子，你好!</a></li>
-          
-            <li><a title="阅读的一些思考" href="yuedu.html">阅读的一些思考</a></li>
-          
-
-      
-        <li class="divider"></li>
-        <li><label>随便来唠叨</label></li>
-
-          
-            <li><a title="✔️智能与便捷" href="zhi-neng-bian-jie.html">✔️智能与便捷</a></li>
-          
-            <li><a title="2017, 我们继续浪" href="Hello-2017.html">2017, 我们继续浪</a></li>
-          
-            <li><a title="缘份" href="yuanfen.html">缘份</a></li>
-          
-            <li><a title="妥协" href="tuoxie.html">妥协</a></li>
-          
-
-      
       </ul>
     </aside>
 
 <a class="exit-off-canvas" href="#"></a>
 
+
         <section id="main-content" role="main" class="scroll-container">
+        
+       
 
-          <div class="row">
-            <div class="large-3 medium-3 columns">
-              <div class="hide-for-small">
-                <div class="sidebar">
-                <nav>
-                  <ul id="side-nav" class="side-nav">
+ <script type="text/javascript">
+  $(function(){
+    $('#menu_item_index').addClass('is_active');
+  });
+</script>
+<div class="row">
+  <div class="large-8 medium-8 columns">
+      <div class="markdown-body article-wrap">
+       <div class="article">
+          
+          <h1>只做一件事</h1>
+     
+        <div class="read-more clearfix">
+          <span class="date">2014/03/08</span>
 
-                    
-                      <li class="side-title"><span>软件应用盒</span></li>
-                        
-                          <li><a title="懂你英语 + Anki" href="dongni-and-anki.html">懂你英语 + Anki</a></li>
-                        
-                          <li><a title="接触了Typora，才发现快捷键是这样用的" href="Typora.html">接触了Typora，才发现快捷键是这样用的</a></li>
-                        
-                          <li><a title="愉快的英语原著阅读（Kindle + Kindle Mate + Anki）" href="Kindle-mate-to-anki.html">愉快的英语原著阅读（Kindle + Kindle Mate + Anki）</a></li>
-                        
-                          <li><a title="测试MWbe上传图床" href="mweb-qiniu.html">测试MWbe上传图床</a></li>
-                        
-                          <li><a title="MWeb升级1.7版本之后" href="nweb-1.7.html">MWeb升级1.7版本之后</a></li>
-                        
-                          <li><a title="新主题–Array Camera" href="themes-array-camera.html">新主题–Array Camera</a></li>
-                        
-                          <li><a title="拯救大象–如何整合笔记" href="zhengjiu-evernote.html">拯救大象–如何整合笔记</a></li>
-                        
-                          <li><a title="Lightroom安装LR/Mogrify" href="anzhuang-lrmogrify-for-mac.html">Lightroom安装LR/Mogrify</a></li>
-                        
-                          <li><a title="Wordpress真的可以用Markdown发布哦" href="mweb-for-wordpress.html">Wordpress真的可以用Markdown发布哦</a></li>
-                        
-                          <li><a title="测试使用Blogo" href="blogo-for-wordpress.html">测试使用Blogo</a></li>
-                        
-                          <li><a title="Evernote-自制表格模板" href="evernote-template.html">Evernote-自制表格模板</a></li>
-                        
-                          <li><a title="进步的笔记式-Evernote" href="evernote-for-everthing.html">进步的笔记式-Evernote</a></li>
-                        
+          <span>posted in&nbsp;</span> 
+          
+              <span class="posted-in"><a href='evernote.html'>思考要专注</a></span>
+           
+         
+          <span class="comments">
+            
 
-                    
-                      <li class="side-title"><span>思考要专注</span></li>
-                        
-                          <li><a title="为博客而写" href="blog-is.html">为博客而写</a></li>
-                        
-                          <li><a title="只做一件事" href="yijianshi.html">只做一件事</a></li>
-                        
-                          <li><a title="拖延症与懒惰情怀" href="tuoyanzheng.html">拖延症与懒惰情怀</a></li>
-                        
-                          <li><a title="我的博客将来时" href="farbox-with-wordpress.html">我的博客将来时</a></li>
-                        
+            
+          </span>
 
-                    
-                      <li class="side-title"><span>读书这件事</span></li>
-                        
-                          <li><a title="思考--读书这件小事" href="dushuzhejianshi.html">思考--读书这件小事</a></li>
-                        
-                          <li><a title="整理术有多高效" href="zhenglishu.html">整理术有多高效</a></li>
-                        
-                          <li><a title="影子，你好!" href="yingzi-nihao.html">影子，你好!</a></li>
-                        
-                          <li><a title="阅读的一些思考" href="yuedu.html">阅读的一些思考</a></li>
-                        
+        </div>
+      </div><!-- article -->
 
-                    
-                      <li class="side-title"><span>随便来唠叨</span></li>
-                        
-                          <li><a title="✔️智能与便捷" href="zhi-neng-bian-jie.html">✔️智能与便捷</a></li>
-                        
-                          <li><a title="2017, 我们继续浪" href="Hello-2017.html">2017, 我们继续浪</a></li>
-                        
-                          <li><a title="缘份" href="yuanfen.html">缘份</a></li>
-                        
-                          <li><a title="妥协" href="tuoxie.html">妥协</a></li>
-                        
-
-                    
-                  </ul>
-                </nav>
-                </div>
-              </div>
-            </div>
-            <div class="large-9 medium-9 columns">
-
- <div class="markdown-body">
-<h1>只做一件事</h1>
-
-<p>电影《太极从零开始》一开始杨露禅母亲临终前对他说：“跟着师傅练武功。记住，你这辈子干好这件事，够了。”上个月看完《神探夏洛克》第三季，对于只做一件事又有更多的感叹。因为自己不折不扣是个什么都想学，却什么都学不精，学不好的求学瘾者。<br/>
+      <div class="article-content">
+      <p>电影《太极从零开始》一开始杨露禅母亲临终前对他说：“跟着师傅练武功。记住，你这辈子干好这件事，够了。”上个月看完《神探夏洛克》第三季，对于只做一件事又有更多的感叹。因为自己不折不扣是个什么都想学，却什么都学不精，学不好的求学瘾者。<br/>
 （这又是在唾弃自己了吗？）</p>
 
 <span id="more"></span><!-- more -->
@@ -220,66 +144,178 @@
 <p>其实不用再写什么，我只需要选一个做下去.</p>
 
 
-</div>
+    
 
-<br /><br />
-<hr />
+      </div>
 
-<div class="row clearfix">
-  <div class="large-6 columns">
-	<div class="text-left" style="padding:15px 0px;">
-		
-	        <a href="evernote-template.html"  title="Previous Post: Evernote-自制表格模板">&laquo; Evernote-自制表格模板</a>
-	    
-	</div>
-  </div>
-  <div class="large-6 columns">
-	<div class="text-right" style="padding:15px 0px;">
-		
-	        <a href="tuoyanzheng.html" 
-	        title="Next Post: 拖延症与懒惰情怀">拖延症与懒惰情怀 &raquo;</a>
-	    
-	</div>
-  </div>
-</div>
+      <div class="row">
+        <div class="large-6 columns">
+        <p class="text-left" style="padding:15px 0px;">
+      
+          <a href="evernote-template.html" 
+          title="Previous Post: Evernote-自制表格模板">&laquo; Evernote-自制表格模板</a>
+      
+        </p>
+        </div>
+        <div class="large-6 columns">
+      <p class="text-right" style="padding:15px 0px;">
+      
+          <a  href="tuoyanzheng.html" 
+          title="Next Post: 拖延症与懒惰情怀">拖延症与懒惰情怀 &raquo;</a>
+      
+      </p>
+        </div>
+      </div>
+      <div class="comments-wrap">
+        <div class="share-comments">
+          
 
-<div class="row">
-<div style="padding:0px 0.93em;" class="share-comments">
+          
 
-</div>
-</div>
-<script type="text/javascript">
-	$(function(){
-		var currentURL = 'yijianshi.html';
-		$('#side-nav a').each(function(){
-			if($(this).attr('href') == currentURL){
-				$(this).parent().addClass('active');
-			}
-		});
-	});
-</script>  
-</div></div>
+          
+        </div>
+      </div>
+    </div><!-- article-wrap -->
+  </div><!-- large 8 -->
 
 
-<div class="page-bottom">
+
+
+ <div class="large-4 medium-4 columns">
+  <div class="hide-for-small">
+    <div id="sidebar" class="sidebar">
+          <div id="site-info" class="site-info">
+            
+                <h1></h1>
+                <div class="site-des"></div>
+                <div class="social">
+
+
+<a target="_blank" class="stackoverflow" href="log-bbyy.jpg" title="StackOverflow"></a>
+
+
+
+<a target="_blank" class="instagram" href="https://instagram.com/atumpoo/" title="Instagram">Instagram</a>
+<a target="_blank" class="weibo" href="http://weibo.com/71533958" title="weibo">Weibo</a>
+
+
+<a target="_blank" class="email" href="mailto:enjoy@minisix.cn" title="Email">Email</a>
+  <a target="_blank" class="rss" href="atom.xml" title="RSS">RSS</a>
+                
+              	 </div>
+          	</div>
+
+             
+
+              <div id="site-categories" class="side-item ">
+                <div class="side-header">
+                  <h2>Categories</h2>
+                </div>
+                <div class="side-content">
+
+      	<p class="cat-list">
+        
+            <a href="software.html"><strong>软件应用盒</strong></a>
+        
+            <a href="evernote.html"><strong>思考要专注</strong></a>
+        
+            <a href="Reading.html"><strong>读书这件事</strong></a>
+        
+            <a href="whisper.html"><strong>随便来唠叨</strong></a>
+         
+        </p>
+
+
+                </div>
+              </div>
+
+              <div id="site-categories" class="side-item">
+                <div class="side-header">
+                  <h2>Recent Posts</h2>
+                </div>
+                <div class="side-content">
+                <ul class="posts-list">
+	      
+		      
+			      <li class="post">
+			        <a href="zhi-neng-bian-jie.html">✔️智能与便捷</a>
+			      </li>
+		     
+		  
+		      
+			      <li class="post">
+			        <a href="dongni-and-anki.html">懂你英语 + Anki</a>
+			      </li>
+		     
+		  
+		      
+			      <li class="post">
+			        <a href="Typora.html">接触了Typora，才发现快捷键是这样用的</a>
+			      </li>
+		     
+		  
+		      
+			      <li class="post">
+			        <a href="Hello-2017.html">2017, 我们继续浪</a>
+			      </li>
+		     
+		  
+		      
+			      <li class="post">
+			        <a href="Kindle-mate-to-anki.html">愉快的英语原著阅读（Kindle + Kindle Mate + Anki）</a>
+			      </li>
+		     
+		  
+		      
+		  
+		      
+		  
+		      
+		  
+		      
+		  
+		      
+		  
+		      
+		  
+		      
+		  
+		      
+		  
+		      
+		  
+		      
+		  
+		      
+		  
+		      
+		  
+		      
+		  
+		      
+		  
+		      
+		   
+		  		</ul>
+                </div>
+              </div>
+        </div><!-- sidebar -->
+      </div><!-- hide for small -->
+</div><!-- large 4 -->
+
+</div><!-- row -->
+
+ <div class="page-bottom clearfix">
   <div class="row">
-  <hr />
-  <div class="small-9 columns">
-  <p class="copyright">Copyright &copy; 2015
+   <p class="copyright">Copyright &copy; 2015
 Powered by <a target="_blank" href="http://www.mweb.im">MWeb</a>,&nbsp; 
 Theme used <a target="_blank" href="http://github.com">GitHub CSS</a>.</p>
-  </div>
-  <div class="small-3 columns">
-  <p class="copyright text-right"><a href="#header">TOP</a></p>
-  </div>
-   
   </div>
 </div>
 
         </section>
       </div>
     </div>
-    
 
 
 
@@ -299,8 +335,8 @@ Theme used <a target="_blank" href="http://github.com">GitHub CSS</a>.</p>
 
 
 <style type="text/css">
-figure{margin: 0.4em 0;padding: 0;}
-  figcaption{text-align:center;}
+figure{margin: 0;padding: 0;}
+figcaption{text-align:center;}
 
 /* PrismJS 1.14.0
  http://prismjs.com/download.html#themes=prism&languages=markup+css+clike+javascript */
@@ -486,16 +522,28 @@ pre[class*="language-"].line-numbers > code {
             text-align: right;
         }
 
-
 </style>
+
+  
     
+
     <script src="asset/js/foundation.min.js"></script>
-    <script src="asset/js/foundation/foundation.offcanvas.js"></script>
     <script>
       $(document).foundation();
-
+      function fixSidebarHeight(){
+        var w1 = $('.markdown-body').height();
+          var w2 = $('#sidebar').height();
+          if (w1 > w2) { $('#sidebar').height(w1); };
+      }
+      $(function(){
+        fixSidebarHeight();
+      })
+      $(window).load(function(){
+          fixSidebarHeight();
+      });
      
     </script>
+
 
 
   </body>

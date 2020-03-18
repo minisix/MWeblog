@@ -4,7 +4,7 @@
   <title><![CDATA[那小Q]]></title>
   <link href="https://minisix.github.io/atom.xml" rel="self"/>
   <link href="https://minisix.github.io/"/>
-  <updated>2020-03-18T20:47:00+08:00</updated>
+  <updated>2020-03-18T20:53:23+08:00</updated>
   <id>https://minisix.github.io/</id>
   <author>
     <name><![CDATA[]]></name>
@@ -45,7 +45,7 @@
 便捷与智能，只是为了使我们的生活品质越来越好，但不是完全能替代，也有缺点和劣势。就像炒菜机，永远都没办法炒出妈妈特制红烧肉，再吸力超猛的扫地机器人，也会有原地打圈、抽风的时侯。</p>
 
 <p>只要感受他们带来的乐趣与便捷就好，你说呢？<br/>
-<figure><img src="http://uploads.minisix.cn/mweb/2020-03-18-15845354028377.jpg" alt="smart-zhineng"/><figcaption>smart-zhineng</figcaption></figure></p>
+<figure><img src="http://uploads.minisix.cn/mweb/2020-03-18-15845354028377.jpg-05" alt="smart-zhineng" style="width:640px;"/><figcaption>smart-zhineng</figcaption></figure></p>
 
 ]]></content>
   </entry>
@@ -77,14 +77,14 @@
 
 <ol>
 <li><p>安装好插件<br/>
-<figure><img src="http://uploads.minisix.cn/2019-03-30-1.jpg" alt="1"/><figcaption>1</figcaption></figure><br/>
-<figure><img src="http://uploads.minisix.cn/2019-03-30-2.jpg" alt="2"/><figcaption>2</figcaption></figure></p></li>
+<figure><img src="http://uploads.minisix.cn/2019-03-30-1.jpg" alt="1" style="width:640px;"/><figcaption>1</figcaption></figure><br/>
+<figure><img src="http://uploads.minisix.cn/2019-03-30-2.jpg" alt="2" style="width:640px;"/><figcaption>2</figcaption></figure></p></li>
 <li><p>设置自己的模板<br/>
-<figure><img src="http://uploads.minisix.cn/2019-03-30-5.jpg" alt="5"/><figcaption>5</figcaption></figure></p></li>
+<figure><img src="http://uploads.minisix.cn/2019-03-30-5.jpg" alt="5" style="width:640px;"/><figcaption>5</figcaption></figure></p></li>
 </ol>
 
 <p>我在划词助手Antimoon模板的基础上增加了一些自己需要的字段，例如：“词根”“图片”“原文例句”<br/>
-<figure><img src="http://uploads.minisix.cn/2019-03-30-6.jpg" alt="6"/><figcaption>6</figcaption></figure></p>
+<figure><img src="http://uploads.minisix.cn/2019-03-30-6.jpg" alt="6" style="width:640px;"/><figcaption>6</figcaption></figure></p>
 
 <p>回到模板设置，点击【卡片】<br/>
 正面和背面设置如下：</p>
@@ -157,8 +157,8 @@ initVoice();<br/>
 
 <ol>
 <li>打开FastWQ，选择词库
-<figure><img src="http://uploads.minisix.cn/2019-03-30-3.jpg" alt="3"/><figcaption>3</figcaption></figure>
-<figure><img src="http://uploads.minisix.cn/2019-03-30-4.jpg" alt="4"/><figcaption>4</figcaption></figure></li>
+<figure><img src="http://uploads.minisix.cn/2019-03-30-3.jpg" alt="3" style="width:640px;"/><figcaption>3</figcaption></figure>
+<figure><img src="http://uploads.minisix.cn/2019-03-30-4.jpg" alt="4" style="width:640px;"/><figcaption>4</figcaption></figure></li>
 </ol>
 
 <p>选择你的MDX文件存放位置<br/>
@@ -167,16 +167,16 @@ initVoice();<br/>
 
 <ol>
 <li>设置完成后。可以在Anki界面，点击【添加】，新增一个单词，然后选择加载测试，如下：
-<figure><img src="http://uploads.minisix.cn/2019-03-30-7.jpg" alt="7"/><figcaption>7</figcaption></figure></li>
+<figure><img src="http://uploads.minisix.cn/2019-03-30-7.jpg" alt="7" style="width:640px;"/><figcaption>7</figcaption></figure></li>
 </ol>
 
 <p>正面：<br/>
-<figure><img src="http://uploads.minisix.cn/2019-03-30-8.jpg" alt="8"/><figcaption>8</figcaption></figure></p>
+<figure><img src="http://uploads.minisix.cn/2019-03-30-8.jpg" alt="8" style="width:640px;"/><figcaption>8</figcaption></figure></p>
 
 <p>背面根据FastWQ设置会有不同：<br/>
-<figure><img src="http://uploads.minisix.cn/2019-03-30-9.jpg" alt="9"/><figcaption>9</figcaption></figure></p>
+<figure><img src="http://uploads.minisix.cn/2019-03-30-9.jpg" alt="9" style="width:640px;"/><figcaption>9</figcaption></figure></p>
 
-<p><figure><img src="http://uploads.minisix.cn/2019-03-30-9-1.jpg" alt="9-1"/><figcaption>9-1</figcaption></figure></p>
+<p><figure><img src="http://uploads.minisix.cn/2019-03-30-9-1.jpg" alt="9-1" style="width:640px;"/><figcaption>9-1</figcaption></figure></p>
 
 <ol>
 <li>测试完，先用手机端对懂你英语的单词例句进行划词。同步后打开电脑端进行同步。</li>
@@ -185,11 +185,11 @@ initVoice();<br/>
 <li>点击菜单栏“FastWQ”，选择【查询选中项】</li>
 <li>所有添加进来的单词，会被二次加载词根，图片以及简明释义。</li>
 <li>最后全选一遍，点击菜单栏“AwesomeTTS”，选择【Add Audio to Selected...】
-<figure><img src="http://uploads.minisix.cn/2019-03-30-10.jpg" alt="10"/><figcaption>10</figcaption></figure></li>
+<figure><img src="http://uploads.minisix.cn/2019-03-30-10.jpg" alt="10" style="width:640px;"/><figcaption>10</figcaption></figure></li>
 </ol>
 
 <p>设置如下：完成点击【Generate】<br/>
-<figure><img src="http://uploads.minisix.cn/2019-03-30-11.jpg" alt="11"/><figcaption>11</figcaption></figure></p>
+<figure><img src="http://uploads.minisix.cn/2019-03-30-11.jpg" alt="11" style="width:640px;"/><figcaption>11</figcaption></figure></p>
 
 <p>到这里就完成了。<br/>
 同步到手机里后，在任何时候都可以拿来听音频磨耳朵，同时可以有语境复习。通过助记图片、词根词缀，还有双语释义进行反向记忆。</p>
@@ -222,7 +222,7 @@ initVoice();<br/>
 
 <h3 id="toc_0">截取MWeb快捷菜单——</h3>
 
-<p><figure><img src="http://uploads.minisix.cn/2017-03-13-14893348844462.jpg-05" alt="快捷键"/><figcaption>快捷键</figcaption></figure></p>
+<p><figure><img src="http://uploads.minisix.cn/2017-03-13-14893348844462.jpg-05" alt="快捷键" style="width:640px;"/><figcaption>快捷键</figcaption></figure></p>
 
 <p>只知道自己第一眼就爱上了MWeb，却不曾细细研究这个工具的优点。<br/>
 Typora不光有所见即所得，还拥有MAC、Windows双平台客户端，这很是让人欢喜。</p>

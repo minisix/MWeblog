@@ -4,7 +4,7 @@
   <title><![CDATA[那小Q]]></title>
   <link href="https://minisix.github.io/atom.xml" rel="self"/>
   <link href="https://minisix.github.io/"/>
-  <updated>2020-04-08T05:48:24+08:00</updated>
+  <updated>2020-04-08T05:52:44+08:00</updated>
   <id>https://minisix.github.io/</id>
   <author>
     <name><![CDATA[]]></name>
@@ -230,8 +230,6 @@ initVoice();<br/>
 
 <p>苦于Windows没有MWeb客户端，不断摸索中发现了<strong>Typora</strong>。</p>
 
-<span id="more"></span><!-- more -->
-
 <p>他的优点是只需要输入文字及快捷键，不用鼠标进行格式设置都能所见即所得。这正是我一直不能形成习惯去使用Markdown的硬伤。<br/>
 也正是Typora的<strong>快捷键</strong>，让我想到MWeb也有，好吧！从没使用过。</p>
 
@@ -256,20 +254,18 @@ Typora不光有所见即所得，还拥有MAC、Windows双平台客户端，这�
     <updated>2017-01-01T14:10:06+08:00</updated>
     <id>https://minisix.github.io/Hello-2017.html</id>
     <content type="html"><![CDATA[
-<p><figure><img src="https://uploads.minisix.cn/IMG_1138.JPG-05" alt="安静的读书"/><figcaption>安静的读书</figcaption></figure></p>
-
 <p>豆瓣有个知名读书小组叫“买书如山倒，读书如抽丝”，对此有人调侃的好啊：“已经花了这么多钱买书，为什么还要花更多时间去读书呢？”<br/>
 来啊，互相浪费啊~</p>
 
-<span id="more"></span><!-- more -->
+<p><figure><img src="https://uploads.minisix.cn/IMG_1138.JPG" alt="安静的读书"/><figcaption>安静的读书</figcaption></figure></p>
 
-<p><figure><img src="https://uploads.minisix.cn/IMG_1137.PNG-05" alt="北京地铁站路牌广告"/><figcaption>北京地铁站路牌广告</figcaption></figure></p>
+<p><figure><img src="https://uploads.minisix.cn/IMG_1137.PNG" alt="北京地铁站路牌广告"/><figcaption>北京地铁站路牌广告</figcaption></figure></p>
 
-<p><figure><img src="https://uploads.minisix.cn/IMG_1136.PNG-05" alt="地铁广告牌，榜单"/><figcaption>地铁广告牌，榜单</figcaption></figure></p>
+<p><figure><img src="https://uploads.minisix.cn/IMG_1136.PNG" alt="地铁广告牌，榜单"/><figcaption>地铁广告牌，榜单</figcaption></figure></p>
 
 <p>当你为生活处处奔忙，行色匆匆，是否也该暂时停下脚步，寻求一点点超越？它像一个庄重的仪式，提醒你，骚年，快去看书学习！</p>
 
-<p><figure><img src="https://uploads.minisix.cn/IMG_1139.PNG-05" alt="2016亚马逊电子书阅读城市榜"/><figcaption>2016亚马逊电子书阅读城市榜</figcaption></figure></p>
+<p><figure><img src="https://uploads.minisix.cn/IMG_1139.PNG" alt="2016亚马逊电子书阅读城市榜"/><figcaption>2016亚马逊电子书阅读城市榜</figcaption></figure></p>
 
 <p>这几年陆续在看书，无论是周刊还是畅销书单，都会抽空开始阅读。特别2014年看了97本，重新让我拾起读书的乐趣。2015购买了Kindle，这是从有了相机以来最值得购买的东西。但是还是磨合了一年，才正式从多看阅读转换到Kindle。最大的原因是为了看英文原版。不过还是会拖延并发症导致进步很慢。</p>
 
@@ -445,8 +441,6 @@ Typora不光有所见即所得，还拥有MAC、Windows双平台客户端，这�
 <p>即然是上传到图床，那在编辑新增本地图片后，需要再手动更改图片地址，测试一下：</p>
 
 <p><figure><img src="https://uploads.minisix.cn/2016-03-04-test.jpg-05" alt="test"/><figcaption>test</figcaption></figure></p>
-
-<span id="more"></span><!-- more -->
 
 <p>图片上传后会重命名文件名为：年-月-日-原文件名</p>
 
